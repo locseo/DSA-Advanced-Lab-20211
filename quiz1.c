@@ -83,7 +83,7 @@ void qsort_3way(int low, int heigh)
 
   
   qsort_3way(low, n);
-  qsort_3way(i+1, heigh);      // số a[i] bằng với số đang xét,  từ a[i+1] mới lớn hơn số đang xét. 
+  qsort_3way(i+1, heigh);      // số a[i] bằng với số đang xét,  từ a[i+1] lớn hơn số đang xét. 
 }
 
 int cmpfunc (const void * a, const void * b)
