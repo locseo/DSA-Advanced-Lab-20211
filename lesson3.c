@@ -92,7 +92,7 @@ entry  getphone(char *name, SymbolTable* book)
 {
   int found;
   int index=BinarySearch(book->array, book->compare, 0, book->total-1, name, found);
-  if(*found=1)
+  if(found=1)
     {
       return book->array[index];
     }
